@@ -13,6 +13,11 @@
 	},
 	"author": "Max Davitt <max@davitt.me>",
 	"license": "MIT",
+	"keywords": [
+		"hastscript",
+		"component",
+		"wrapper"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/themaxdavitt/hastscript-components.git"
@@ -29,7 +34,7 @@
 		"hastscript": "^7.x"
 	},
 	"dependencies": {
-		"@themaxdavitt/component-wrapper": "themaxdavitt/component-wrapper"
+		"@themaxdavitt/component-wrapper": "^0.1.0"
 	},
 	"prettier": {
 		"useTabs": true,
