@@ -1,0 +1,46 @@
+{
+	"name": "@themaxdavitt/hastscript-components",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Wrap hastscript to allow function pseudo-components",
+	"scripts": {
+		"prettier": "prettier --write .",
+		"lint": "xo"
+	},
+	"exports": {
+		"./html/jsx-runtime": "./html.js",
+		"./svg/jsx-runtime": "./svg.js"
+	},
+	"author": "Max Davitt <max@davitt.me>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/themaxdavitt/hastscript-components.git"
+	},
+	"bugs": {
+		"url": "https://github.com/themaxdavitt/hastscript-components/issues"
+	},
+	"homepage": "https://github.com/themaxdavitt/hastscript-components",
+	"devDependencies": {
+		"prettier": "^2.3.1",
+		"xo": "^0.40.2"
+	},
+	"peerDependencies": {
+		"hastscript": "^7.x"
+	},
+	"dependencies": {
+		"@themaxdavitt/component-wrapper": "themaxdavitt/component-wrapper"
+	},
+	"prettier": {
+		"useTabs": true,
+		"singleQuote": true,
+		"bracketSpacing": true,
+		"trailingComma": "es5"
+	},
+	"xo": {
+		"prettier": true,
+		"rules": {
+			"node/file-extension-in-import": "off"
+		}
+	}
+}
