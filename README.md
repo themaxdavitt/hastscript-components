@@ -30,3 +30,7 @@ console.log(await jsx('p', { children: ['Hello world!'] }));
 ## License
 
 MIT License, see [`LICENSE`](LICENSE).
+
+## See also
+
+The "sort of" components from [`vhtml`](https://www.npmjs.com/package/vhtml#new-sortof-components)
